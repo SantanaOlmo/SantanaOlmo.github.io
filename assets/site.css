@@ -1,0 +1,91 @@
+/* Estilos compartidos del origen play-host (landing + legal). */
+:root {
+  color-scheme: dark;
+  --bg: #12181e;
+  --fg: #e8eef4;
+  --muted: #9aa8b5;
+  --accent: #7eb8ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: Georgia, 'Times New Roman', serif;
+  background: radial-gradient(1200px 600px at 20% 0%, #1c2833, var(--bg));
+  color: var(--fg);
+}
+
+body.page-center {
+  display: grid;
+  place-items: center;
+}
+
+body.page-doc {
+  display: block;
+}
+
+main.narrow {
+  max-width: 28rem;
+  text-align: center;
+}
+
+main.doc {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2rem;
+  letter-spacing: 0.02em;
+}
+
+h2 {
+  margin: 1.75rem 0 0.5rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+p,
+li {
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+ul {
+  margin: 0 0 1rem;
+  padding-left: 1.25rem;
+}
+
+a {
+  color: var(--accent);
+}
+
+.cta {
+  display: inline-block;
+  padding: 0.7rem 1.1rem;
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  border-radius: 0.4rem;
+  text-decoration: none;
+  color: var(--fg);
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+}
+
+.meta {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.nav-back {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}

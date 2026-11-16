@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.estud.app",
+      "sha256_cert_fingerprints": [
+        "98:1F:CF:D7:29:4A:4A:AA:8D:CB:31:A8:FB:F8:43:64:79:4A:4B:1D:E1:93:0D:EE:F7:D3:3F:9A:7B:CC:B2:B9"
+      ]
+    }
+  }
+]
